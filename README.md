@@ -20,7 +20,21 @@ I use this app every night, where I plan my goals for tomorrow the night before,
 
 ## Getting Started
 
-Esnure you have the proper dependencies installed in order to run the program. Provided you have everything, the fat jar file should be all you need in order to start using this program.
+Esnure you have the proper dependencies installed in order to run the program. You'll also want to create a `goals.json` file at the top level of your folder (alongside where `src` and `target` are). It should look like this to start:
+```
+{
+  "dayGoals": [],
+  "morningGoals": [],
+  "afternoonGoals": [],
+  "eveningGoals": [],
+  "tomorrowDayGoals": [],
+  "tomorrowMorningGoals": [],
+  "tomorrowAfternoonGoals": [],
+  "tomorrowEveningGoals": []
+}
+```
+
+Provided you have everything now, the fat jar file should be all you need in order to start using this program.
 
 ## Compatibility
 
