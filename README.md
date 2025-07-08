@@ -8,6 +8,7 @@ This is a planner app that I made using Java.
 - [How I Use It](#how-i-use-it)
 - [Getting Started](#getting-started)
 - [Compatibility](#compatibility)
+- [Gallery](#gallery)
 - [Known Issues](#known-issues)
 
 ## Design Philosophy
@@ -39,6 +40,12 @@ Provided you have everything now, the fat jar file should be all you need in ord
 ## Compatibility
 
 This was built in Ubuntu using Maven, so it natively runs in Ubuntu. It can also be run using WSL, if you choose to do all of this on Windows. I have not yet found a way to get this program running on MacOS.
+
+## Gallery
+
+![Today's goals](./NightB4Screenshots/Today.png)
+![Tommorow's goals](./NightB4Screenshots/Tomorrow.png)
+![Rollover tomorrow's goals into today](./NightB4Screenshots/Rollover.png)
 
 ## Known Issues
 
